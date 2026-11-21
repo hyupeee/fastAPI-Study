@@ -21,3 +21,15 @@ pip install -r requirements.txt
 3-2) 가상환경에 설치된 라이브러리 파일로 저장
 pip freeze > requirements.txt
 ```
+
+2. 프로젝트 구조
+
+```
+app/
+├── __init__.py
+├── main.py
+├── api/routes/       # Controller
+├── schemas/          # DTO
+├── services/         # Service
+└── repositories/     # Repository
+```
